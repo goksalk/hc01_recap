@@ -13,6 +13,16 @@
 
     <!-- html kodunun sitillendirme dosyası -->
     <link rel="stylesheet" href="style.css" />
+    <style>
+      /* internal css */
+      .par {
+        color: white;
+        background-color: red;
+      }
+      #container {
+        border: 2px solid red;
+      }
+    </style>
 
     <title>Recap</title>
   </head>
@@ -23,23 +33,37 @@
     <h4>Bu bir h4 etiketidir</h4>
     <h5>Bu bir h5 etiketidir</h5>
     <h6>Bu bir h6 etiketidir</h6>
-    <div>
-      <p>
+    <div id="container">
+      <p class="par">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
         voluptates itaque exercitationem dignissimos culpa dolor reiciendis nam
         ratione eaque dolorem cumque quos quam, modi quo dolore ab quas ad vero.
       </p>
-      <p>
+      <p style="color: blueviolet; background-color: beige">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, ut ab
         nihil nostrum beatae asperiores sapiente nulla omnis assumenda
         excepturi?
       </p>
-      <p>
+      <p class="par">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est,
         exercitationem neque nemo provident delectus, eius ullam perferendis,
         atque asperiores esse veniam tempore reprehenderit omnis nihil quasi
         rerum id debitis.
       </p>
     </div>
+    <section>
+      Lorem ipsum <mark>dolor</mark> , sit amet <u>consectetur</u>
+
+      <del> adipisicing</del>
+      elit. Dolor possimus esse, omnis voluptatum
+      <strong>voluptas</strong> nisi, ullam ipsum debitis, pariatur harum
+      deleniti <em>accusantium</em> labore architecto ad.
+    </section>
+    <br />
+    <article>Bu ürünün fiyatı <span style="color: red">500 TL</span></article>
+    <aside>
+      <p>Suyun formülü H <sub>2</sub>O</p>
+      <p>formül x <sup>2</sup>+3</p>
+    </aside>
   </body>
 </html>
