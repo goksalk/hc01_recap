@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="forms.css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>FORMS</h1>
+    <form action="result.html" method="get">
+      <section id="name">
+        <label for="isim">İsim</label><br />
+        <input
+          id="isim"
+          type="text"
+          placeholder="adınızı giriniz"
+          name="isim"
+          value=""
+          required
+        />
+
+        <br /><br />
+
+        <label for="pass">Password</label>
+        <br />
+        <input
+          type="password"
+          id="pass"
+          name="pass"
+          placeholder="En az 8 karakter giriniz"
+          required
+        />
+        <br /><br />
+        <label for="email">Email</label>
+        <br />
+        <input
+          type="Email"
+          id="email"
+          name="email"
+          placeholder="Email giriniz"
+          required
+        />
+        <br /><br />
+        <label for="age">age</label>
+        <br />
+        <input
+          type="number"
+          id="age"
+          name="age"
+          placeholder="Yaşınızı giriniz"
+          min="0"
+          max="160"
+        />
+        <br /><br />
+        <!--gender(cinsiyet) radio buton -->
+        <p>Gender</p>
+
+        <label for="erkek">Erkek</label>
+
+        <input type="radio" id="erkek" name="gender" value="Erkek" />
+        <label for="kadın">Kadın</label>
+
+        <input type="radio" id="kadın" name="gender" value="Kadın" />
+        <label for="none">None</label>
+
+        <input type="radio" id="none" name="gender" value="none" />
+
+        <p>medeni durum</p>
+        <article style="border: 1px solid red">
+          <label for="evli">Evli</label>
+          <input type="checkbox" name="evli" id="evli" value="evli" />
+          <label for="bekar">Bekar</label>
+          <input type="checkbox" name="bekar" id="bekar" value="bekar" />
+        </article>
+
+        <br /><br />
+      </section>
+
+      <br /><br />
+      <label
+        style="border: 5px solid red; background-color: coral; color: black"
+        for="fav-cars"
+        >LÜTFEN FAVORİ ARABALARINIZI SEÇİNİZ</label
+      >
+      <br />
+      <label for="bmw">BMW</label>
+      <input type="checkbox" name="cars1" id="bmw" value="BMW" />
+
+      <label for="mercedes">MERCEDES</label>
+      <input type="checkbox" name="cars2" id="mercedes" value="MERCEDES" />
+      <br /><br />
+
+      <label for="dob">Doğum Tarihi</label>
+      <input type="date" name="dob" id="dob" min="1990-01-01" />
+
+      <br /><br />
+
+      <br /><br />
+      <!-- select -->
+      <section>
+        <select name="tatlı" id="tatlı">
+          <optgroup label="şerbetli tatlılar">
+            <option value="künefe">künefe</option>
+            <option value="sütlaç">sütlaç</option>
+          </optgroup>
+
+          <optgroup label="sütlü tatlılar">
+            <option value="baklava">baklava</option>
+          </optgroup>
+        </select>
+        <br /><br />
+        <textarea
+          name="yorum"
+          id="yorum"
+          cols="30"
+          rows="10"
+          placeholder="en fazla 100 karakter giriniz."
+        ></textarea>
+        <br /><br /><br />
+        <section id="buttons">
+          <input type="submit" value="Kaydet" />
+
+          <input type="reset" value="Sil" />
+        </section>
+      </section>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+article {
+  background-color: brown;
+  padding: 5px;
+  margin: auto;
+  color: black;
+}
+#yorum {
+  border-radius: 20px;
+  border: 20px solid red;
+}
+#buttons {
+  margin-left: 100px;
+}
