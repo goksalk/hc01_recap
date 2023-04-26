@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: bisque;
+  margin: 50px;
+  margin: 10px 30px;
+  text-align: center;
+  padding: 10px;
+}
+.div {
+  margin: auto;
+  background-color: blueviolet;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100px;
+  /* height: 100px; */
+  border-radius: 10px;
+}

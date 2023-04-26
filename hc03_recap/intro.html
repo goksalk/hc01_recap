@@ -6,8 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <title>Intro</title>
+    <!-- internal css -->
+    <style>
+      nav {
+        border: 2px solid red;
+      }
+      section {
+        color: blueviolet;
+      }
+      #section-1 {
+        color: rgba(59, 193, 77, 0.843);
+        color: hsl(293, 100%, 50%);
+        color: hsl(180, 11%, 38%);
+      }
+    </style>
   </head>
-  <body>
-    <h1>Intro</h1>
+  <body style="text-align: center">
+    <!-- 
+   * Inline CSS, HTML elementlerine style keyword'u ile eklenir.
+   * style kelimesinin ici aslinda CSS alanidir.
+   * Sadece eklenen element icin bir stillendirme gerceklestirir.
+   * Bu sebeple cok pratik bir yontem degildir.
+   * HTML kodlarini kalabaliklastirdigi icin kodun gorunumunu karmasiklastirir.
+ -->
+    <header>
+      <h1 style="color: red">CSS INTRO</h1>
+    </header>
+    <nav>
+      <a href="#">Home</a>|
+      <a href="#">Contact</a>
+    </nav>
+
+    <main>
+      <section id="section-1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat harum
+        voluptate, repellat dicta cum quo at architecto voluptas! Veritatis sit
+        eligendi maiores, commodi accusamus ab vero laborum quasi placeat
+        dignissimos!
+      </section>
+
+      <section>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, hic atque?
+        Autem, unde dolores! Dolorum veritatis tempore, pariatur beatae
+        architecto libero harum ex quae quis at officiis, ratione expedita. Vero
+        ex aut quae eum doloribus autem deleniti similique recusandae
+        perspiciatis.
+      </section>
+
+      <div>
+        <img
+          class="images"
+          src="https://cdn.pixabay.com/photo/2023/04/22/02/19/roller-coaster-7942853_640.jpg"
+          alt="kelebek"
+        />
+        <br />
+        <img
+          class="images"
+          src="https://cdn.pixabay.com/photo/2023/04/24/02/51/crimson-rosella-7947000__340.jpg"
+          alt="kuş"
+        />
+      </div>
+    </main>
   </body>
 </html>
