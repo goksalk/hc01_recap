@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Box sizing</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      /* box genel clasına alınca clas ıd sine aynı şeyleri yapmasını istiyorsak id yanına örn:box gibi kelime yazıp box clasında style verebiliriz. */
+      .box {
+        width: 200px;
+        border: 5px solid red;
+        padding: 10px;
+        margin: 20px;
+        text-align: center;
+      }
+      .content {
+        /* width: 200px;
+        border: 5px solid red;
+        padding: 10px; */
+        box-sizing: content-box;
+        background-color: chartreuse;
+      }
+
+      .border1 {
+        /* width: 200px;
+        border: 5px solid red;
+        padding: 10px; */
+        box-sizing: border-box;
+        background-color: #444;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Box Sizing</h1>
+    <div class="content box">content-box</div>
+    <div class="border1 box">border-box</div>
+  </body>
+</html>

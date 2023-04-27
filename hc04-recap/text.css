@@ -1,0 +1,78 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+.text-style {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  /* font stili */
+  font-style: italic;
+  /* font variantla yazı çeşitlerini değieşbiliriz */
+  font-variant: small-caps;
+  text-align: justify;
+  text-align: inherit;
+}
+/*? p span yaparsak p etiketi içinde span i stillendiririz diğer türlü sayfadaki diğer span etiketi içindeki spani de kırmızı yapardı YAPILAN İŞLEME  DESCENDANT SELECTOR DENİR*/
+/* p span {
+  color: rgb(255, 0, 162);
+} */
+/*? bu şekilde yapılması biraz daha spesifik yapar.hem clas verip hem spani seçtik */
+.text-style span {
+  color: red;
+  text-align: justify;
+  text-align: inherit;
+  text-align: center;
+}
+.decoration {
+  /** üst çizgi */
+  text-decoration: overline;
+  /*? alt çizgi */
+  text-decoration: underline;
+  /*? üzerini çiz */
+  text-decoration: line-through;
+  /* linklerdeki default alt çizgiyi bunla kapatabiliriz */
+  text-decoration: none;
+}
+.transformation {
+  color: blueviolet;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: none;
+  border: 5px solid red;
+  border-radius: 10px;
+}
+
+.spacing {
+  color: rgb(50, 60, 205);
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  border: 5px inset black;
+  line-height: 1.5;
+}
+/*? parAGRAF GİRİNTİ VERİR */
+.indent {
+  text-indent: 50px;
+}
+.direct {
+  /* text-align: right; */
+  font-size: 20px;
+  direction: ltr;
+  direction: rtl;
+}
+/*? YAZIYA GÖLGE VERME  İLK HANE X EKSENİ YANİ YATAY,İKİNCİ HANE Y EKSENİ YANİ YUKARI AŞAĞI +- KULLANILABİLİR + YUKARI - AŞAĞI GİBİ 3.RAKAM SAYDAMLIK. 4.RAKAM RGBA VERDİĞİMİZ İÇİN OPAKLIK
+*/
+.text-shadow {
+  text-shadow: 10px -15px 5px rgba(0, 0, 0, 0.5);
+}
+.box-shadow {
+  background-color: beige;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px rgba(205, 5, 5, 0);
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}

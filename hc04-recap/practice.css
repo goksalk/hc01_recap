@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+h1 {
+  margin: 20px 0;
+  cursor: pointer;
+}
+/*? Inline element icerik kadar yer kaplarlar. Bu sebepten dolayi margin ve padding top ve bottom ,width degerlerini alamazlar. Bu ozelikleri kullanmak icin elementler display property si ile inline-block haline getirilebilr*/
+.top-nav a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  box-shadow: 2px 15px 5px rgba(0 0, 0, 0.5);
+}
+.top-nav a:hover {
+  /* saydamlık verdik */
+  opacity: 0.5;
+  color: red;
+}
