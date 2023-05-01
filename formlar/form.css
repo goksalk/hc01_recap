@@ -27,6 +27,10 @@ body {
   border-radius: 5px;
   padding: 10px;
 }
+.navigasyon a:hover {
+  color: red;
+  opacity: 0.5;
+}
 /* ?yazı1 orta bölüm */
 .yazı1 {
   margin: 100px;
@@ -168,6 +172,9 @@ article a {
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
 }
+article a:hover {
+  color: red;
+}
 
 .sosyal::before {
   content: "Linkedin";
@@ -179,5 +186,5 @@ article a {
   content: "Twitter";
 }
 .sosyal3::before {
-  content: "İnstagram";
+  content: "Instagram";
 }
