@@ -1,0 +1,183 @@
+* {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+/* !başlık kısmı */
+#başlık {
+  margin: 30px 0 0 0;
+  font-family: "Bungee Shade", cursive;
+  font-size: 48px;
+}
+
+/* ?knavigasyon bölümü */
+.navigasyon a {
+  text-decoration: none;
+  margin: 0px 10px 10px 0;
+  background-color: orange;
+  border-radius: 5px;
+  padding: 10px;
+}
+/* ?yazı1 orta bölüm */
+.yazı1 {
+  margin: 100px;
+  padding: 48px;
+
+  font-family: "Rampart One", cursive;
+  font-size: 48px;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.yaşo {
+  animation: shake 0.5s infinite;
+  display: block;
+}
+
+/** h3 olan yer */
+h3 {
+  font-size: 32px;
+  color: white;
+  border-bottom: 2px solid white;
+  display: inline;
+}
+figure {
+  display: flex;
+  justify-content: center;
+}
+/* ?resimler */
+figure img {
+  object-fit: cover;
+
+  width: 150px;
+  height: auto;
+  margin-top: 25px;
+  cursor: pointer;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  border-radius: 5px;
+  /* display: inline-block; */
+  outline: 1px solid #22746b !important;
+}
+figure img:hover {
+  /* backdrop-filter: grayscale(100%); */
+  opacity: 0.7;
+}
+
+/* ?h5 contact me yazan yer */
+.altyazı {
+  font-size: 32px;
+  color: white;
+  border-bottom: 2px solid white;
+  display: inline;
+}
+
+/* ?send mesaage kısmı */
+h4 {
+  margin-top: 20px;
+  display: inline;
+  padding-left: 20px;
+  /* margin-block-start: 1.3rem; */
+  font-size: 19px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+#name {
+  margin-top: 2px;
+}
+/*? buton kısmı */
+#buton:hover {
+  color: coral;
+  opacity: 0.7;
+}
+#buton {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 50%;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  transition: all 0.3s;
+  margin-top: -4px;
+
+  font-weight: 900;
+  border-radius: 5px;
+  background: tan;
+}
+#buton .yaşo1 {
+  display: none;
+}
+#buton:hover {
+  opacity: 0.5;
+}
+#buton:hover .yaşo1 {
+  display: inline;
+}
+
+/* ?yorum kısmı */
+
+#yorum {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+/* ?alt top */
+.yaşo3 {
+  display: flex;
+  justify-content: end;
+  margin: 20px 10px;
+}
+.yaşo3 button {
+  background-color: #d2b48c;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.yaşo3 a {
+  color: white;
+}
+article a {
+  color: bisque;
+  padding: 10px;
+  font-size: 15px;
+  display: inline-block;
+  margin: 20px 10px 10px 0;
+  font-weight: 700;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sosyal::before {
+  content: "Linkedin";
+}
+.sosyal1::before {
+  content: "Github";
+}
+.sosyal2::before {
+  content: "Twitter";
+}
+.sosyal3::before {
+  content: "İnstagram";
+}

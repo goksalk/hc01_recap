@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <link rel="stylesheet" href="
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Rampart+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="başlık">Göksal KARABULUT</h1>
+    </header>
+
+    <nav class="navigasyon">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#proje">Projects</a>
+      <a href="#cont">Contact</a>
+    </nav>
+    <main>
+      <div class="yazı1">
+        <p id="about">
+          Hi there <span class="yaşo">👋</span> Anthony HAROLD here! I'm a
+          Frontend Developer. I loves coding...
+        </p>
+      </div>
+
+      <h3 id="proje">My Projects</h3>
+      <figure>
+        <img src="https://picsum.photos/id/1/300/400" alt="" />
+        <img src="https://picsum.photos/id/2/300/400" alt="fil" />
+
+        <img src="https://picsum.photos/id/3/300/400" alt="" />
+
+        <img src="https://picsum.photos/id/25/300/400" alt="" />
+
+        <img src="https://picsum.photos/id/14/300/400" alt="" />
+      </figure>
+
+      <section>
+        <h5 class="altyazı" id="cont">Contact Me</h5>
+      </section>
+      <article>
+        <a href="https://www.linkedin.com/feed/" target="_blank" class="sosyal">
+          <i class="fa-brands fa-linkedin"> </i
+        ></a>
+
+        <a href="https://github.com/" target="_blank" class="sosyal1"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://twitter.com/?lang=tr" target="_blank" class="sosyal2"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="https://www.instagram.com/" target="_blank" class="sosyal3"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </article>
+    </main>
+
+    <br />
+    <footer>
+      <h4 id="send">Send message</h4>
+
+      <form action=""></form>
+      <section id="name">
+        <label for="send"></label>
+        <input type="text" id="send" placeholder="Username" required />
+        <br /><br />
+
+        <input type="email" id="send" placeholder="Email" required />
+        <br /><br />
+        <textarea
+          name="yorum"
+          id="yorum"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+
+        <br /><br />
+
+        <button type="submit" id="buton">
+          SEND
+          <span class="yaşo1"
+            ><i class="fa-solid fa-envelope-circle-check"></i
+          ></span>
+        </button>
+      </section>
+
+      <div class="yaşo3">
+        <button><a href="#başlık">TOP</a></button>
+      </div>
+    </footer>
+  </body>
+</html>
