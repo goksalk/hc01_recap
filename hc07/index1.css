@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+header {
+  background-color: pink;
+  padding: 3rem;
+  font-size: 2rem;
+}
+nav.sticy {
+  background-color: lemonchiffon;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+.fixed {
+  background-color: limegreen;
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-size: 2.3rem;
+  /* text-align: center;
+  padding-top: 0.2rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  bottom: 5.3rem;
+  right: 2rem;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

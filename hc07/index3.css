@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0.5rem;
+}
+/* .box > h1 {
+  color: blue;
+} */
+div h1 {
+  color: red;
+}
+.box ~ p {
+  color: blue;
+}
+.outline {
+  color: red;
+  width: 6rem;
+  height: 6rem;
+  border: 1px solid red;
+  font-size: 1rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+}
+.outline:hover {
+  outline: 5px solid indigo;
+  outline-offset: 0.2rem;
+}
+input {
+  outline: none;
+  /* outline: 3px solid red; */
+}
+input:hover {
+  outline: 3px solid red;
+}

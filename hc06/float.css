@@ -1,0 +1,29 @@
+img {
+  width: 30%;
+}
+
+.float-img {
+  float: left;
+}
+
+.box {
+  float: left;
+  font-size: 2rem;
+  text-align: center;
+}
+.box1 {
+  background-color: green;
+  width: 30%;
+  float: right;
+}
+.box2 {
+  background-color: blue;
+  width: 25%;
+}
+.box3 {
+  background-color: pink;
+  width: 35%;
+}
+.clearfix {
+  clear: both;
+}

@@ -1,0 +1,50 @@
+/* !body nin fon size ı default olarak  16px tir
+
+/*!bodynin default yüksekliği yoktur.bu sebeple altındakilerden birine yükseklik vermeden direk yüzdelik yükseklik verilirse çalışmaz*/
+body {
+    /* ?body e bu şekilde vh ile yükseklik verilirse sayfayı tam kapsar ve scrool çıkarmaz */
+  height: 100vh;
+  background-color: #dedede;
+}
+
+h1 {
+  color: red;
+  /*? DEFAULT FONT SİZE 32 PX 
+  TİMES NEW ROMAN */
+}
+/*? DEFAULT FONT SİZE 16PX */
+/* !mutlak ölçü birimleri */
+P {
+  font-size: 20px;
+  font-size: 1cm;
+  font-size: 10mm;
+  font-size: 1in;
+  font-size: 20px;
+}
+/* !relative ölçü birimleri */
+p.percent {
+  font-size: 200%;
+  /* ?yukarıdaki gibi % li işlem yapılırsa verilen yüzde hangisinin altındaysa örneğin burda bodynin altında bodynin yüzde 200 ü anlamına gelir */
+}
+
+.div1 {
+  background-color: tomato;
+  width: 50%;
+  /* ?burda verilen yüzde bir üst parent ı yani body oluyor burda bir üstü onun yüzde 50sini alır yani sayfanın yarısını alır */
+  height: 30px;
+}
+
+.div2 {
+  background-color: green;
+  width: 50%;
+  /** burda verilen yüzde parentı olan div1 in yüzde 50 sini alır */
+  height: 50%;
+}
+
+.div3 {
+  background-color: aqua;
+  width: 50vw;
+  height: 15vh;
+  /* ?VH  göreceli olarak yükseklik yani bulunduğu görünen alanın yüzdelik yüksekliği*/
+  /* *vw ise genişlik yani uzunluğudur.*/
+  

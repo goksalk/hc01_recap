@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.box {
+  width: 10rem;
+  height: 10rem;
+  font-size: 1rem;
+}
+.static {
+  background-color: blueviolet;
+  position: static;
+}
+.relative1 {
+  background-color: aqua;
+  position: relative;
+  top: 0rem;
+  left: 10rem;
+}
+.relative2 {
+  opacity: 0.7;
+  background-color: red;
+  position: relative;
+  top: 0rem;
+  left: 0rem;
+}
+.absolute {
+  position: absolute;
+  background-color: antiquewhite;
+  font-size: 15px;
+  width: 3rem;
+  height: 3rem;
+}
+.top-left {
+  top: 0;
+  left: 0;
+}
+.top-right {
+  top: 0;
+  right: 0;
+}
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+.köşe {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.center {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  left: 30%;
+  bottom: 30%;
+  background-color: aliceblue;
+}
