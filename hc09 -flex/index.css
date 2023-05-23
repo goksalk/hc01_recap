@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul.nav {
+  height: 50vh;
+  background-color: cadetblue;
+  list-style-type: none;
+  padding: 1rem;
+  display: flex;
+  /* justify-content: center;
+  justify-content: space-between; */
+  justify-content: space-around;
+  justify-content: center;
+  /* !ELEMANLARIN DİZİLİŞ YÖNÜNÜ COLUMN,ROW,ROW-REWERSE,COLUMN-REVERSE KULLANA BİLİRİZ     FLEX DİRECTİON:COLUMN VEYA ROW
+   */
+  flex-direction: row;
+  gap: 2rem 4rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+ul.nav li {
+  background-color: antiquewhite;
+  width: 7rem;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.container {
+  background-color: brown;
+  margin-top: 2rem;
+  padding: 1rem;
+
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+
+.container * {
+  background-color: aqua;
+}
+
+header {
+  background-color: #f8f5f1;
+  padding: 4rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+section.img img {
+  width: 100%;
+}
+section p,
+h2 {
+  line-height: 2;
+}
+.img {
+  flex: 1;
+  min-width: 300px;
+}
+.text {
+  flex: 2;
+  flex-basis: 300px;
+}

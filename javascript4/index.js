@@ -72,11 +72,11 @@
 
 // console.log("notunuz:", not);
 
-// !............for.........
-let not = prompt("lütfen 0-100 arasında bir not giriniz");
+// !............for döngüsü ile yapılması.........
+// let not = prompt("lütfen 0-100 arasında bir not giriniz");
 
-for (; not < 0 || not > 100; ) {
-  alert("lütfen 0-100 arasında bir not giriniz");
-  not = prompt("lütfen 0-100 arasında bir not giriniz");
-}
-console.log("notunuz:", not);
+// for (; not < 0 || not > 100; ) {
+//   alert("lütfen 0-100 arasında bir not giriniz");
+//   not = prompt("lütfen 0-100 arasında bir not giriniz");
+// }
+// console.log("notunuz:", not);

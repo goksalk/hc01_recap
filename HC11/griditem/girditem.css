@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  height: 100vh;
+  gap: 1rem 1.5rem;
+  /*? Grid'i yatay düzlemde hizalar */
+  justify-content: center;
+}
+
+.content {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c6 {
+  /*! item'lari bireysel olarak yatay duzlemde hizalar. */
+  justify-self: end;
+}
+.c7 {
+  /*! item'lari bireysel olarak dikey duzlemde hizalar. */
+  align-self: flex-start;
+}
+.c3 {
+  align-self: flex-end;
+}
+
+.c1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: bisque;
+}
+.c4 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: blueviolet;
+}
+
+.c8 {
+  /* grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 5; */
+  background-color: burlywood;
+  grid-area: 3/2/5/4;
+  /*!  grid-area: row_start / col_start / row_end / col_end */
+}
+
+.c12 {
+  grid-column: span 3;
+  background-color: darkgoldenrod;
+}
+.c9 {
+  grid-row: span 3;
+  background-color: greenyellow;
+}
